@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062183AE239BB14C00B77362 /* ServerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062183AD239BB14C00B77362 /* ServerController.swift */; };
+		062D593D239C9C44006738FF /* WorkoutLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062D593C239C9C44006738FF /* WorkoutLogViewController.swift */; };
+		063CCF73239C4F4A00AC2907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063CCF72239C4F4A00AC2907 /* ViewController.swift */; };
+		06C1644B239A65F700A368BD /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C16442239A65F600A368BD /* Global.swift */; };
+		06C1644C239A65F700A368BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C16443239A65F600A368BD /* SceneDelegate.swift */; };
+		06C1644E239A65F700A368BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C16445239A65F600A368BD /* AppDelegate.swift */; };
+		06C16451239A65F700A368BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C16448239A65F600A368BD /* Assets.xcassets */; };
+		06C16466239A6FF100A368BD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06C16449239A65F700A368BD /* Info.plist */; };
+		06C1646A239A711B00A368BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C16469239A711B00A368BD /* LaunchScreen.storyboard */; };
+		06C16478239A75B100A368BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C16467239A711200A368BD /* Main.storyboard */; };
+		06C16480239A765A00A368BD /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C16479239A765900A368BD /* QuizViewController.swift */; };
+		06C16482239A765A00A368BD /* QuizPart2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C1647B239A765900A368BD /* QuizPart2ViewController.swift */; };
+		06C16483239A765A00A368BD /* CalorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C1647C239A765900A368BD /* CalorieViewController.swift */; };
+		06C16484239A765A00A368BD /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C1647D239A765900A368BD /* WorkoutViewController.swift */; };
+		06C16485239A765A00A368BD /* PlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C1647E239A765A00A368BD /* PlannerViewController.swift */; };
+		06C16486239A765A00A368BD /* SuggestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C1647F239A765A00A368BD /* SuggestionViewController.swift */; };
+		06C16488239A766900A368BD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C16487239A766900A368BD /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		062183AD239BB14C00B77362 /* ServerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerController.swift; sourceTree = "<group>"; };
+		062D593C239C9C44006738FF /* WorkoutLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutLogViewController.swift; sourceTree = "<group>"; };
+		063CCF72239C4F4A00AC2907 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06C16428239A657D00A368BD /* T4G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T4G.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C16442239A65F600A368BD /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		06C16443239A65F600A368BD /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		06C16445239A65F600A368BD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = T4G/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		06C16448239A65F600A368BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06C16449239A65F700A368BD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C16454239A664B00A368BD /* T4G-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "T4G-Bridging-Header.h"; sourceTree = "<group>"; };
+		06C16467239A711200A368BD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		06C16469239A711B00A368BD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06C16479239A765900A368BD /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		06C1647B239A765900A368BD /* QuizPart2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizPart2ViewController.swift; sourceTree = "<group>"; };
+		06C1647C239A765900A368BD /* CalorieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalorieViewController.swift; sourceTree = "<group>"; };
+		06C1647D239A765900A368BD /* WorkoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		06C1647E239A765A00A368BD /* PlannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlannerViewController.swift; sourceTree = "<group>"; };
+		06C1647F239A765A00A368BD /* SuggestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionViewController.swift; sourceTree = "<group>"; };
+		06C16487239A766900A368BD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06C16425239A657D00A368BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C1641F239A657D00A368BD = {
+			isa = PBXGroup;
+			children = (
+				06C1642A239A657D00A368BD /* T4G */,
+				06C16429239A657D00A368BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06C16429239A657D00A368BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06C16428239A657D00A368BD /* T4G.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06C1642A239A657D00A368BD /* T4G */ = {
+			isa = PBXGroup;
+			children = (
+				06C16445239A65F600A368BD /* AppDelegate.swift */,
+				06C16469239A711B00A368BD /* LaunchScreen.storyboard */,
+				06C16467239A711200A368BD /* Main.storyboard */,
+				06C16448239A65F600A368BD /* Assets.xcassets */,
+				06C16442239A65F600A368BD /* Global.swift */,
+				06C16487239A766900A368BD /* Utilities.swift */,
+				06C16449239A65F700A368BD /* Info.plist */,
+				06C16443239A65F600A368BD /* SceneDelegate.swift */,
+				06C1647C239A765900A368BD /* CalorieViewController.swift */,
+				06C1647E239A765A00A368BD /* PlannerViewController.swift */,
+				06C1647B239A765900A368BD /* QuizPart2ViewController.swift */,
+				062D593C239C9C44006738FF /* WorkoutLogViewController.swift */,
+				06C16479239A765900A368BD /* QuizViewController.swift */,
+				06C1647F239A765A00A368BD /* SuggestionViewController.swift */,
+				063CCF72239C4F4A00AC2907 /* ViewController.swift */,
+				06C1647D239A765900A368BD /* WorkoutViewController.swift */,
+				06C16454239A664B00A368BD /* T4G-Bridging-Header.h */,
+				062183AD239BB14C00B77362 /* ServerController.swift */,
+			);
+			path = T4G;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06C16427239A657D00A368BD /* T4G */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C1643E239A657E00A368BD /* Build configuration list for PBXNativeTarget "T4G" */;
+			buildPhases = (
+				06C16424239A657D00A368BD /* Sources */,
+				06C16425239A657D00A368BD /* Frameworks */,
+				06C16426239A657D00A368BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T4G;
+			productName = T4G;
+			productReference = 06C16428239A657D00A368BD /* T4G.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06C16420239A657D00A368BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = user161956;
+				TargetAttributes = {
+					06C16427239A657D00A368BD = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 06C16423239A657D00A368BD /* Build configuration list for PBXProject "T4G" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06C1641F239A657D00A368BD;
+			productRefGroup = 06C16429239A657D00A368BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06C16427239A657D00A368BD /* T4G */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06C16426239A657D00A368BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C16451239A65F700A368BD /* Assets.xcassets in Resources */,
+				06C1646A239A711B00A368BD /* LaunchScreen.storyboard in Resources */,
+				06C16478239A75B100A368BD /* Main.storyboard in Resources */,
+				06C16466239A6FF100A368BD /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06C16424239A657D00A368BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C16482239A765A00A368BD /* QuizPart2ViewController.swift in Sources */,
+				06C16484239A765A00A368BD /* WorkoutViewController.swift in Sources */,
+				06C1644E239A65F700A368BD /* AppDelegate.swift in Sources */,
+				062183AE239BB14C00B77362 /* ServerController.swift in Sources */,
+				06C1644B239A65F700A368BD /* Global.swift in Sources */,
+				06C16480239A765A00A368BD /* QuizViewController.swift in Sources */,
+				06C16488239A766900A368BD /* Utilities.swift in Sources */,
+				06C16485239A765A00A368BD /* PlannerViewController.swift in Sources */,
+				063CCF73239C4F4A00AC2907 /* ViewController.swift in Sources */,
+				06C16486239A765A00A368BD /* SuggestionViewController.swift in Sources */,
+				06C16483239A765A00A368BD /* CalorieViewController.swift in Sources */,
+				06C1644C239A65F700A368BD /* SceneDelegate.swift in Sources */,
+				062D593D239C9C44006738FF /* WorkoutLogViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06C1643C239A657E00A368BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06C1643D239A657E00A368BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06C1643F239A657E00A368BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = T4G/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.user.T4G;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "T4G/T4G-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06C16440239A657E00A368BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = T4G/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.user.T4G;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "T4G/T4G-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06C16423239A657D00A368BD /* Build configuration list for PBXProject "T4G" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C1643C239A657E00A368BD /* Debug */,
+				06C1643D239A657E00A368BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06C1643E239A657E00A368BD /* Build configuration list for PBXNativeTarget "T4G" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C1643F239A657E00A368BD /* Debug */,
+				06C16440239A657E00A368BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06C16420239A657D00A368BD /* Project object */;
+}
